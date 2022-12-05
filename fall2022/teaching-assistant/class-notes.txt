@@ -1,0 +1,8 @@
+divide in conquer
+
+
+By the end of this lab students will be able to define elastic deformation and plastic deformation. 
+
+by the end of this class students will be able to look and a stress strain curve from a tensile test and label the elastic regions, plasitic regions and give a value for youngs modulus.
+
+students will be able to design and tensile test for a given material and predict what the stress vs strain curve will look like. :
