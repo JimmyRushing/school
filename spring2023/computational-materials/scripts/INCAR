@@ -1,0 +1,22 @@
+System = Al            #Title
+ENCUT = 450            # Cutoff Energy for Plane-Wave Basis Set. All plane-waves with 
+                       # kinetic energy smaller than ENCUT are included in the basis set.
+NELM = 60              # Maximum # of Electronic Iteration Steps Per Ionic Step
+EDIFF = 1E-7           # Preset Stopping Criterion for Total Energy Change
+EDIFFG = -.01          # A Preset Criterion for Forces
+NSW = 100              # Maximum # of Ionic Steps During Geometry Optimization
+ISMEAR= 0              # Partial Occupancies Set for Each Orbital
+SIGMA=0.2              # Finite Electronic Temperature Determining the Width of the Smearing in eV
+PREC = Accurate        # Precision of the VASP Calculation
+ALGO = Normal          # Electronic Minimisation Algorithm           
+ISTART = 0             # Start Job from Scratch
+ICHARG =  2            # Take Superposition of Atomic Charge Densities   
+ISYM = 2               # Turn on Symmetry
+ISPIN = 2              # Spin polarized calculations 
+IBRION = 2             # Relax Ions into Instantaneous Groundstate
+ISIF = 3               # Relax cell and ionic positions
+LWAVE = .T.            # Save Orbitals (Wave Functions)
+LCHARG = .T.           # Save Charge Density
+LREAL = .F.            # Real Space Projection Scheme
+NCORE = 2              # The number of compute cores that work on an individual orbital
+                       # NCORE= 4 - approx SQRT( number of cores)
